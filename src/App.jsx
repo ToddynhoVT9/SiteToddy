@@ -4,7 +4,7 @@ import Text from "./components/Text";
 
 import Home from "./pages/home";
 import Profile from "./pages/profile";
-import Blog from "./pages/Blog";
+import Blog from "./pages/blog";
 import Portfolio from "./pages/portfolio";
 import Signup from "./pages/singUp";
 
