@@ -1,4 +1,10 @@
-# 🚀 ToddySite
+This document is available in pt-br and en-us.
+
+# pt-br
+
+---
+
+## 🚀 ToddySite
 
 Site pessoal desenvolvido com **React + Vite + TailwindCSS**, focado em
 performance, organização modular e escalabilidade.
@@ -114,5 +120,135 @@ Basta enviar o conteúdo da pasta `dist/`.
 
 Matheus (ToddynhoVT)\
 Engenheiro Elétrico \| Desenvolvedor \| Entusiasta de tecnologia
+
+GitHub: https://github.com/ToddynhoVT9
+
+---
+
+---
+
+---
+
+# en-us
+
+---
+
+## 🚀 ToddySite
+
+Personal website developed with **React + Vite + TailwindCSS**, focused
+on performance, modular organization, and scalability.
+
+This project serves as a foundation for digital presence, a technical
+blog, and future expansion with authentication, dynamic pages, and API
+integration.
+
+---
+
+## 🧠 Technologies Used
+
+- **React** -- Library for building user interfaces
+- **Vite** -- Modern and extremely fast build tool
+- **TailwindCSS** -- Utility-first styling framework
+- **React Router** -- Page routing
+- **Node.js** -- Runtime environment
+
+---
+
+## 📂 Project Structure
+
+    src/
+     ├── components/      # Reusable components
+     ├── pages/           # Application pages
+     ├── assets/          # Images and static files
+     ├── App.jsx          # Route definitions
+     └── main.jsx         # Application entry point
+
+The architecture follows the principle of separation between:
+
+- Reusable components
+- Pages (views)
+- Routing logic
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ToddynhoVT9/toddysite.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd toddysite
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## 🧪 Development Environment
+
+To run the project locally:
+
+```bash
+npm run dev
+```
+
+Vite will start the development server at:
+
+http://localhost:5173
+
+---
+
+## 📦 Production Build
+
+To generate the optimized production version:
+
+```bash
+npm run build
+```
+
+The final files will be generated in the:
+
+dist/
+
+---
+
+## 🌍 Deployment
+
+The project can be hosted on:
+
+- Vercel
+- Netlify
+- Hostinger
+- GitHub Pages
+- Private VPS
+
+Simply upload the contents of the `dist/` folder.
+
+---
+
+## 🔥 Possible Future Expansions
+
+- Dynamic blog system
+- User authentication
+- Backend integration (Node or external API)
+- Administrative dashboard
+- Advanced SEO
+- Integration with Substack or a custom CMS
+
+---
+
+## 👨‍💻 Author
+
+Matheus (ToddynhoVT)\
+Electrical Engineer \| Developer \| Technology Enthusiast
 
 GitHub: https://github.com/ToddynhoVT9
