@@ -1,4 +1,4 @@
-import Text from "./src/components/Text";
+import Text from "../Text";
 
 function LinkItem({ href, label }) {
   return (
