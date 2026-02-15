@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="rounded-2xl bg-[#202020] p-8 border border-[#545454]">
+    <section className="rounded-2xl bg-[#121212] p-8 border border-[#545454]">
       <h1 className="text-3xl font-bold text-white">
         Toddy (Mateus) — Quem eu sou?
       </h1>
@@ -18,4 +18,4 @@ export default function Hero() {
     </section>
   );
 }
-//"   [#202020]   [#545454]   [#7d7d7d]   [#beb8b8]   "
+//"   [#121212]   [#202020]   [#545454]   [#7d7d7d]   [#beb8b8]   "

@@ -6,7 +6,7 @@ function LinkItem({ href, label }) {
       href={href}
       target="_blank"
       rel="noreferrer"
-      className="block w-full rounded-xl bg-[#202020] border border-[#545454] px-5 py-4 text-white
+      className="block w-full rounded-xl bg-[#121212] border border-[#545454] px-5 py-4 text-white
                  hover:bg-[#545454] transition"
     >
       {label}
@@ -16,7 +16,7 @@ function LinkItem({ href, label }) {
 
 export default function LinkTree() {
   return (
-    <section className="rounded-2xl bg-[#202020] p-6 border border-[#545454]">
+    <section className="rounded-2xl bg-[#121212] p-6 border border-[#545454]">
       <h2 className="text-xl font-semibold text-white">Me encontre por aí</h2>
       <p className="mt-2 text-[#beb8b8]">Links para as minhas redes:</p>
 
@@ -44,4 +44,4 @@ export default function LinkTree() {
     </section>
   );
 }
-//"   [#202020]   [#545454]   [#7d7d7d]   [#beb8b8]   "
+//"   [#121212]   [#202020]   [#545454]   [#7d7d7d]   [#beb8b8]   "
