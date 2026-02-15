@@ -12,7 +12,7 @@ export default function CreateAccountCTA() {
       <div className="mt-6 flex gap-3">
         <Link
           to="/signup"
-          className="bg-[#202020] hover:bg-[#7d7d7d] text-[#202020] font-semibold
+          className="bg-[#202020] hover:bg-[#7d7d7d] text-white font-semibold
                      px-5 py-3 rounded-xl transition"
         >
           Criar conta
