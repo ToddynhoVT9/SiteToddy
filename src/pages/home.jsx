@@ -22,7 +22,9 @@ export default function Home() {
 
           {/* Painel de Login + CTA de cadastro */}
           <section className="rounded-2xl bg-[#121212] p-8 border border-[#545454]">
-            <h2 className="text-2xl font-semibold text-white">Entrar</h2>
+            <h2 className="text-2xl font-semibold text-white">
+              Entrar (ainda em construção)
+            </h2>
             <p className="mt-3 text-[#beb8b8]">
               Entre para interagir, salvar coisas e acompanhar atualizações.
             </p>

@@ -22,7 +22,9 @@ export default function Signup() {
   return (
     <main className="mx-auto max-w-lg px-6 py-10">
       <section className="rounded-2xl bg-[#121212] p-8 border border-[#545454]">
-        <h1 className="text-2xl font-semibold text-white">Crie sua conta</h1>
+        <h1 className="text-2xl font-semibold text-white">
+          Crie sua conta (ainda em construção)
+        </h1>
         <p className="mt-3 text-[#beb8b8]">
           Leva menos tempo do que decidir um nome de usuário perfeito.
         </p>
