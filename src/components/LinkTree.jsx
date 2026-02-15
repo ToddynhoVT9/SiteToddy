@@ -17,8 +17,8 @@ function LinkItem({ href, label }) {
 export default function LinkTree() {
   return (
     <section className="rounded-2xl bg-zinc-950 p-6 border border-zinc-800">
-      <h2 className="text-xl font-semibold text-white">Me encontra por aí</h2>
-      <p className="mt-2 text-zinc-400">Links principais:</p>
+      <h2 className="text-xl font-semibold text-white">Me encontre por aí</h2>
+      <p className="mt-2 text-zinc-400">Links para as minhas redes:</p>
 
       <div className="mt-5 grid gap-3">
         <Text children="Meus textos:" />
