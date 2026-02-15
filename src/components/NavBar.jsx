@@ -9,7 +9,7 @@ function LinkItemNav({ to, text, className = "" }) {
       to={to}
       className={({ isActive }) =>
         `${baseStyle} ${
-          isActive ? "bg-[#7d7d7d]" : "bg-[#545454] hover:bg-[#202020]"
+          isActive ? "bg-[#121212]" : "bg-[#202020] hover:bg-[#545454]"
         } ${className}`
       }
     >
