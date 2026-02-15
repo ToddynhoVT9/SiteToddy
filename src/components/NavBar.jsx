@@ -9,7 +9,7 @@ function LinkItemNav({ to, text, className = "" }) {
       to={to}
       className={({ isActive }) =>
         `${baseStyle} ${
-          isActive ? "bg-[#202020]" : "bg-[#545454] hover:bg-[#beb8b8]"
+          isActive ? "bg-[#7d7d7d]" : "bg-[#545454] hover:bg-[#202020]"
         } ${className}`
       }
     >
@@ -17,10 +17,10 @@ function LinkItemNav({ to, text, className = "" }) {
     </NavLink>
   );
 }
-
+//"   [#121212]   [#202020]   [#545454]   [#7d7d7d]   [#beb8b8]   "
 export default function Navbar() {
   return (
-    <nav className="bg-[#7d7d7d] text-white py-4 px-6 flex gap-4 items-center">
+    <nav className="bg-[#121212] text-white py-4 px-6 flex gap-4 items-center">
       <NavLink to="/" className="flex items-center">
         <img src={logo} alt="Logo" className="h-10 w-auto" />
       </NavLink>
