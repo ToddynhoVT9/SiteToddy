@@ -1,3 +1,5 @@
+import Text from "./src/components/Text";
+
 function LinkItem({ href, label }) {
   return (
     <a
@@ -19,23 +21,25 @@ export default function LinkTree() {
       <p className="mt-2 text-zinc-400">Links principais:</p>
 
       <div className="mt-5 grid gap-3">
+        <Text children="Meus textos" />
+        <LinkItem
+          href="https://app.valete.org.br/u/toddynhoVT"
+          label="Valete"
+        />
+        <LinkItem href="https://substack.com/@toddynhovt" label="Substack" />
+
+        <Text children="Meus desenhos" />
         <LinkItem
           href="https://www.instagram.com/toddynho_vt/"
           label="Instagram"
         />
 
-        <LinkItem href="https://substack.com/@toddynhovt" label="Substack" />
-
-        <LinkItem
-          href="https://app.valete.org.br/u/toddynhoVT"
-          label="Valete"
-        />
-
-        <LinkItem href="https://www.youtube.com/@toddynhoVT" label="YouTube" />
-
-        <LinkItem href="https://x.com/ToddynhoVT" label="X (Twitter)" />
-
+        <Text children="Quer me doar algo?" />
         <LinkItem href="https://livepix.gg/toddynhovt" label="Livepix" />
+
+        <Text children="Outras redes" />
+        <LinkItem href="https://www.youtube.com/@toddynhoVT" label="YouTube" />
+        <LinkItem href="https://x.com/ToddynhoVT" label="X (Twitter)" />
       </div>
     </section>
   );
