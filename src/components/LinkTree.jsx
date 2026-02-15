@@ -21,23 +21,23 @@ export default function LinkTree() {
       <p className="mt-2 text-zinc-400">Links principais:</p>
 
       <div className="mt-5 grid gap-3">
-        <Text children="Meus textos" />
+        <Text children="Meus textos:" />
         <LinkItem
           href="https://app.valete.org.br/u/toddynhoVT"
           label="Valete"
         />
         <LinkItem href="https://substack.com/@toddynhovt" label="Substack" />
 
-        <Text children="Meus desenhos" />
+        <Text children="Meus desenhos:" />
         <LinkItem
           href="https://www.instagram.com/toddynho_vt/"
           label="Instagram"
         />
 
-        <Text children="Quer me doar algo?" />
+        <Text children="Quer me doar algo?:" />
         <LinkItem href="https://livepix.gg/toddynhovt" label="Livepix" />
 
-        <Text children="Outras redes" />
+        <Text children="Outras redes:" />
         <LinkItem href="https://www.youtube.com/@toddynhoVT" label="YouTube" />
         <LinkItem href="https://x.com/ToddynhoVT" label="X (Twitter)" />
       </div>
