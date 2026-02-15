@@ -103,7 +103,7 @@ Basta enviar o conteúdo da pasta `dist/`.
 
 - Sistema de blog dinâmico
 - Autenticação de usuários
-- Integração com backend (Django, Node ou API externa)
+- Integração com backend (Node ou API externa)
 - Dashboard administrativo
 - SEO avançado
 - Integração com Substack ou CMS próprio
