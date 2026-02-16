@@ -27,7 +27,7 @@ function Modal({ item, onClose }) {
 
   return createPortal(
     <div
-      className="fixed inset-0 z-[9999] flex items-center justify-center p-4"
+      className="fixed inset-0 z-9999 flex items-center justify-center p-4"
       role="dialog"
       aria-modal="true"
       aria-label="Visualização da imagem"
@@ -40,7 +40,7 @@ function Modal({ item, onClose }) {
       />
 
       {/* content */}
-      <div className="relative z-[10000] w-full max-w-4xl rounded-2xl border border-[#3d3d3d] bg-[#121212] shadow-2xl">
+      <div className="relative z-10000 w-full max-w-4xl rounded-2xl border border-[#3d3d3d] bg-[#121212] shadow-2xl">
         <div className="flex items-start justify-between gap-4 p-4 border-b border-[#3d3d3d]">
           <div>
             <p className="text-sm font-semibold text-white">{item.alt}</p>
