@@ -17,7 +17,7 @@ function SideNavItem({ to, label }) {
     <NavLink
       to={to}
       className={({ isActive }) =>
-        `rounded-xl border px-4 py-3 text-sm font-semibold transition
+        `rounded-xl px-4 py-3 text-sm font-semibold transition
          ${
            isActive
              ? "bg-[#202020] text-white"
