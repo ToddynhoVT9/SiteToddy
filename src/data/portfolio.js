@@ -1,0 +1,158 @@
+export const portfolioData = [
+  {
+    title: "Retratos",
+    slug: "retratos",
+    items: [
+      {
+        id: "retratos-01",
+        src: "/images/portfolio/retratos/01.jpg",
+        alt: "Retrato 01",
+        description: "Estudo de retrato 01.",
+      },
+      {
+        id: "retratos-02",
+        src: "/images/portfolio/retratos/02.jpg",
+        alt: "Retrato 02",
+        description: "Estudo de retrato 02.",
+      },
+      {
+        id: "retratos-03",
+        src: "/images/portfolio/retratos/03.jpg",
+        alt: "Retrato 03",
+        description: "Estudo de retrato 03.",
+      },
+      {
+        id: "retratos-04",
+        src: "/images/portfolio/retratos/04.jpg",
+        alt: "Retrato 04",
+        description: "Estudo de retrato 04.",
+      },
+      {
+        id: "retratos-05",
+        src: "/images/portfolio/retratos/05.jpg",
+        alt: "Retrato 05",
+        description: "Estudo de retrato 05.",
+      },
+      {
+        id: "retratos-06",
+        src: "/images/portfolio/retratos/06.jpg",
+        alt: "Retrato 06",
+        description: "Estudo de retrato 06.",
+      },
+      {
+        id: "retratos-07",
+        src: "/images/portfolio/retratos/07.jpg",
+        alt: "Retrato 07",
+        description: "Estudo de retrato 07.",
+      },
+      {
+        id: "retratos-08",
+        src: "/images/portfolio/retratos/08.jpg",
+        alt: "Retrato 08",
+        description: "Estudo de retrato 08.",
+      },
+      {
+        id: "retratos-09",
+        src: "/images/portfolio/retratos/09.jpg",
+        alt: "Retrato 09",
+        description: "Estudo de retrato 09.",
+      },
+      {
+        id: "retratos-10",
+        src: "/images/portfolio/retratos/10.jpg",
+        alt: "Retrato 10",
+        description: "Estudo de retrato 10.",
+      },
+      {
+        id: "retratos-11",
+        src: "/images/portfolio/retratos/11.jpg",
+        alt: "Retrato 11",
+        description: "Estudo de retrato 11.",
+      },
+      {
+        id: "retratos-12",
+        src: "/images/portfolio/retratos/12.jpg",
+        alt: "Retrato 12",
+        description: "Estudo de retrato 12.",
+      },
+    ],
+  },
+  {
+    title: "Estudos",
+    slug: "estudos",
+    items: [
+      {
+        id: "estudos-01",
+        src: "/images/portfolio/estudos/01.jpg",
+        alt: "Estudo 01",
+        description: "Estudo visual 01.",
+      },
+      {
+        id: "estudos-02",
+        src: "/images/portfolio/estudos/02.jpg",
+        alt: "Estudo 02",
+        description: "Estudo visual 02.",
+      },
+      {
+        id: "estudos-03",
+        src: "/images/portfolio/estudos/03.jpg",
+        alt: "Estudo 03",
+        description: "Estudo visual 03.",
+      },
+      {
+        id: "estudos-04",
+        src: "/images/portfolio/estudos/04.jpg",
+        alt: "Estudo 04",
+        description: "Estudo visual 04.",
+      },
+      {
+        id: "estudos-05",
+        src: "/images/portfolio/estudos/05.jpg",
+        alt: "Estudo 05",
+        description: "Estudo visual 05.",
+      },
+      {
+        id: "estudos-06",
+        src: "/images/portfolio/estudos/06.jpg",
+        alt: "Estudo 06",
+        description: "Estudo visual 06.",
+      },
+      {
+        id: "estudos-07",
+        src: "/images/portfolio/estudos/07.jpg",
+        alt: "Estudo 07",
+        description: "Estudo visual 07.",
+      },
+      {
+        id: "estudos-08",
+        src: "/images/portfolio/estudos/08.jpg",
+        alt: "Estudo 08",
+        description: "Estudo visual 08.",
+      },
+      {
+        id: "estudos-09",
+        src: "/images/portfolio/estudos/09.jpg",
+        alt: "Estudo 09",
+        description: "Estudo visual 09.",
+      },
+      {
+        id: "estudos-10",
+        src: "/images/portfolio/estudos/10.jpg",
+        alt: "Estudo 10",
+        description: "Estudo visual 10.",
+      },
+      {
+        id: "estudos-11",
+        src: "/images/portfolio/estudos/11.jpg",
+        alt: "Estudo 11",
+        description: "Estudo visual 11.",
+      },
+      {
+        id: "estudos-12",
+        src: "/images/portfolio/estudos/12.jpg",
+        alt: "Estudo 12",
+        description: "Estudo visual 12.",
+      },
+    ],
+  },
+];
