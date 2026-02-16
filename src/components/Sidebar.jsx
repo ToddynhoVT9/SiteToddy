@@ -59,7 +59,7 @@ export default function Sidebar() {
         <SideNavItem to="/profile" label="Perfil" />
       </Section>
 
-      <Section title="ME ENCONTRE POR AÍ">
+      {/*       <Section title="ME ENCONTRE POR AÍ">
         <ExternalItem
           href="https://substack.com/@toddynhovt"
           label="Substack"
@@ -72,7 +72,7 @@ export default function Sidebar() {
           href="https://www.instagram.com/toddynho_vt/"
           label="Instagram"
         />
-      </Section>
+      </Section> */}
 
       <Section title="EXTRA">
         <SideNavItem to="/signup" label="Criar conta" />
