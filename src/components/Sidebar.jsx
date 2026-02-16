@@ -52,12 +52,16 @@ export default function Sidebar() {
         </div>
       </div>
 
+      <hr className="my-0 border-t-2 border-[#3d3d3d]" />
+
       <Section title="NAVEGAÇÃO">
         <SideNavItem to="/" label="Início" />
         <SideNavItem to="/blog" label="Blog" />
         <SideNavItem to="/portfolio" label="Portfólio" />
         <SideNavItem to="/profile" label="Perfil" />
       </Section>
+
+      <hr className="my-0 border-t-2 border-[#3d3d3d]" />
 
       {/*       <Section title="ME ENCONTRE POR AÍ">
         <ExternalItem
