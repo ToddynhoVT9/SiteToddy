@@ -38,7 +38,7 @@ export default function LinkTree() {
         <LinkItem href="https://livepix.gg/toddynhovt" label="Livepix" />
 
         <Text children="Outras redes:" />
-        <LinkItem href="https://www.youtube.com/@toddynhoVT" label="YouTube" />
+        {/*<LinkItem href="https://www.youtube.com/@toddynhoVT" label="YouTube" />*/}
         <LinkItem href="https://x.com/ToddynhoVT" label="X (Twitter)" />
       </div>
     </section>
