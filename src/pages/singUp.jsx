@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Form from "../components/form";
+import ButtonLinkCreateAccount from "../components/ButtonLinkCreateAccount";
 
 export default function Signup() {
   function handleSignup(e) {
@@ -53,14 +54,7 @@ export default function Signup() {
             placeholder="••••••••"
           />
 
-          <button
-            type="submit"
-            className="mt-2 rounded-xl bg-[#202020] hover:bg-[#3d3d3d]
-                       border border-[#3d3d3d] text-white font-semibold
-                       px-5 py-3 transition"
-          >
-            Criar conta
-          </button>
+          <ButtonLinkCreateAccount as="button" label="Cadastrar" />
 
           <Link
             to="/"

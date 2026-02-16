@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import LinkTree from "../components/LinkTree";
 import Form from "../components/form";
+import ButtonLinkCreateAccount from "../components/ButtonLinkCreateAccount";
 
 export default function Home() {
   function handleLogin(e) {
@@ -54,7 +54,7 @@ export default function Home() {
               </button>
             </form>
 
-            {/* Botão abaixo do formulário levando pro cadastro */}
+            {/* Botão abaixo do formulário levando pro cadastro 
             <div className="mt-6 pt-6 border-t border-[#3d3d3d]">
               <h3 className="text-lg font-semibold text-white">
                 Crie sua conta
@@ -73,7 +73,9 @@ export default function Home() {
                   Criar conta
                 </Link>
               </div>
-            </div>
+            </div> */}
+
+            <ButtonLinkCreateAccount />
           </section>
         </div>
       </div>
