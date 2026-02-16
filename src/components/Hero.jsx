@@ -6,9 +6,9 @@ export default function Hero() {
       </h1>
 
       <p className="mt-4 text-[#beb8b8] leading-relaxed">
-        Eu construo projetos que misturam engenharia elétrica, software e
-        escrita. Curto explicar conceitos difíceis de um jeito direto e criar
-        ferramentas pra organizar conhecimento (e caos).
+        Eu construo projetos que misturam engenharia, software e escrita. Curto
+        explicar conceitos difíceis de um jeito direto e criar ferramentas pra
+        organizar conhecimento (e caos).
       </p>
 
       <p className="mt-4 text-[#beb8b8]">
