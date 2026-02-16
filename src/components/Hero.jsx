@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="rounded-2xl bg-[#121212] p-8 border border-[#545454]">
+    <section className="rounded-2xl  p-8">
       <h1 className="text-3xl font-bold text-white">
         Toddy (Mateus) — Quem eu sou?
       </h1>
