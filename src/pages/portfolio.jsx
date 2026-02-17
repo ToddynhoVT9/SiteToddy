@@ -219,7 +219,7 @@ export default function Portfolio() {
                 to={`/portfolio/${cat.slug}`}
                 className="rounded-xl border border-[#3d3d3d] bg-[#202020] px-4 py-4 text-sm font-semibold text-white hover:bg-[#3d3d3d] transition"
               >
-                Ver tudo
+                Ver tuda a categoria
               </Link>
             </div>
 
