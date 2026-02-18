@@ -1,7 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import AppLayout from "./layouts/AppLayout";
 import Home from "./pages/home";
-import Blog from "./pages/blog";
+import BlogDashboard from "./pages/blog/BlogDashboard";
+import BlogCategory from "./pages/blog/BlogCategory";
+import BlogArticle from "./pages/blog/BlogArticle";
 import Profile from "./pages/profile";
 import Portfolio from "./pages/portfolio";
 import Signup from "./pages/signup";
@@ -12,9 +14,16 @@ export default function App() {
     <Routes>
       <Route element={<AppLayout />}>
         <Route index element={<Home />} />
-        <Route path="blog" element={<Blog />} />
+
+        <Route path="blog">
+          <Route index element={<BlogDashboard />} />
+          <Route path=":categoria" element={<BlogCategory />} />
+          <Route path=":categoria/:slug" element={<BlogArticle />} />
+        </Route>
+
         <Route path="profile" element={<Profile />} />
         <Route path="signup" element={<Signup />} />
+
         <Route path="portfolio">
           <Route index element={<Portfolio />} />
           <Route path=":categoria" element={<PortfolioCategory />} />
