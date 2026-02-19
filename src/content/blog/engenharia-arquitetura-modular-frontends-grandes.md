@@ -24,4 +24,3 @@ export function canExposeModule(apiSurface) {
   return Array.isArray(apiSurface) && apiSurface.length > 0;
 }
 ```
-
