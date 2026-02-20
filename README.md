@@ -6,11 +6,44 @@ This document is available in pt-br and en-us.
 
 ## 🚀 ToddySite
 
+[![React](https://img.shields.io/badge/React-19-20232A?logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+
+_Build badge não exibida: não há workflow em `.github/workflows`. Licença não exibida: nenhum arquivo `LICENSE` encontrado._
+
 Site pessoal desenvolvido com **React + Vite + TailwindCSS**, focado em
 performance, organização modular e escalabilidade.
 
 O projeto serve como base para presença digital, blog técnico e expansão
 futura com autenticação, páginas dinâmicas e integração com APIs.
+
+---
+
+## 📚 Documentação
+
+- [DOCUMENTATION.md](./DOCUMENTATION.md)
+- [document/README.md](./document/README.md)
+
+---
+
+## 🏗️ Arquitetura em 30 segundos
+
+- As rotas ficam em `src/App.jsx`.
+- O layout global está em `src/layouts/AppLayout.jsx`, com `NavBar + Sidebar + Outlet`.
+- Blog: `src/content/blog/*.md` -> `src/lib/blog/loadPosts.js` -> `src/pages/blog/*` e `src/components/blog/*`.
+- Portfólio: `src/data/portfolio.js` -> `src/pages/portfolio.jsx` e `src/pages/portfolioCategory.jsx`.
+- O lightbox do portfólio usa portal para `#modal-root` definido em `index.html`.
+
+---
+
+## 🖼️ Screenshot
+
+Ainda não há screenshot dedicado no repositório para o README.
+
+![Screenshot do site](./public/images/blog/covers/placeholder-1.svg)
+
+Adicione uma imagem em `public/images/blog/covers/placeholder-1.svg` (ou ajuste o link para o arquivo final), se necessário.
 
 ---
 
@@ -135,12 +168,45 @@ GitHub: https://github.com/ToddynhoVT9
 
 ## 🚀 ToddySite
 
+[![React](https://img.shields.io/badge/React-19-20232A?logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+
+_Build badge not shown: no workflow found in `.github/workflows`. License badge not shown: no `LICENSE` file found._
+
 Personal website developed with **React + Vite + TailwindCSS**, focused
 on performance, modular organization, and scalability.
 
 This project serves as a foundation for digital presence, a technical
 blog, and future expansion with authentication, dynamic pages, and API
 integration.
+
+---
+
+## 📚 Documentation
+
+- [DOCUMENTATION.md](./DOCUMENTATION.md)
+- [document/README.md](./document/README.md)
+
+---
+
+## 🏗️ Architecture in 30 seconds
+
+- Routes are declared in `src/App.jsx`.
+- The global layout is in `src/layouts/AppLayout.jsx`, with `NavBar + Sidebar + Outlet`.
+- Blog flow: `src/content/blog/*.md` -> `src/lib/blog/loadPosts.js` -> `src/pages/blog/*` and `src/components/blog/*`.
+- Portfolio flow: `src/data/portfolio.js` -> `src/pages/portfolio.jsx` and `src/pages/portfolioCategory.jsx`.
+- The portfolio lightbox uses a portal to `#modal-root` defined in `index.html`.
+
+---
+
+## 🖼️ Screenshot
+
+There is no dedicated screenshot in the repository for the README yet.
+
+![Site screenshot](./public/images/blog/covers/placeholder-1.svg)
+
+Add an image at `public/images/blog/covers/placeholder-1.svg` (or point the link to the final asset) if needed.
 
 ---
 
