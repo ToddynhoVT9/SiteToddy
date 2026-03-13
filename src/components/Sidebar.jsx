@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-//import logo from "../assets/logo.png";
+import { useAuth } from "../lib/auth/authContext";
 
 function Section({ title, children }) {
   return (
@@ -30,20 +30,21 @@ function SideNavItem({ to, label }) {
   );
 }
 
-function ExternalItem({ href, label }) {
+function LogoutItem({ onClick }) {
   return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noreferrer"
-      className="rounded-xl border border-[#3d3d3d] bg-[#121212] px-4 py-3 text-sm font-semibold text-[#beb8b8] transition hover:bg-[#3d3d3d] hover:text-white"
+    <button
+      onClick={onClick}
+      className="rounded-xl px-4 py-3 text-sm font-semibold text-left transition
+                 bg-[#121212] text-[#beb8b8] hover:bg-[#3d3d3d] hover:text-white w-full"
     >
-      {label}
-    </a>
+      Sair
+    </button>
   );
 }
 
 export default function Sidebar() {
+  const { isAuthenticated, logout } = useAuth();
+
   return (
     <div className="grid gap-6 rounded-2xl bg-[#121212] p-4 text-white">
       <div className="flex items-center gap-3">
@@ -58,28 +59,22 @@ export default function Sidebar() {
         <SideNavItem to="/" label="Início" />
         <SideNavItem to="/blog" label="Blog" />
         <SideNavItem to="/portfolio" label="Portfólio" />
-        <SideNavItem to="/profile" label="Perfil" />
       </Section>
 
       <hr className="my-0 border-t-2 border-[#3d3d3d]" />
 
-      {/*       <Section title="ME ENCONTRE POR AÍ">
-        <ExternalItem
-          href="https://substack.com/@toddynhovt"
-          label="Substack"
-        />
-        <ExternalItem
-          href="https://www.youtube.com/@toddynhoVT"
-          label="YouTube"
-        />
-        <ExternalItem
-          href="https://www.instagram.com/toddynho_vt/"
-          label="Instagram"
-        />
-      </Section> */}
-
-      <Section title="EXTRA">
-        <SideNavItem to="/signup" label="Criar conta" />
+      <Section title="CONTA">
+        {isAuthenticated ? (
+          <>
+            <SideNavItem to="/profile" label="Meu perfil" />
+            <LogoutItem onClick={logout} />
+          </>
+        ) : (
+          <>
+            <SideNavItem to="/login" label="Entrar" />
+            <SideNavItem to="/signup" label="Criar conta" />
+          </>
+        )}
       </Section>
     </div>
   );

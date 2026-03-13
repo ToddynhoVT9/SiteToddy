@@ -6,8 +6,10 @@ import BlogCategory from "./pages/blog/BlogCategory";
 import BlogArticle from "./pages/blog/BlogArticle";
 import Profile from "./pages/profile";
 import Portfolio from "./pages/portfolio";
+import Login from "./pages/login";
 import Signup from "./pages/signup";
 import PortfolioCategory from "./pages/portfolioCategory";
+import { ProtectedRoute, PublicOnlyRoute } from "./lib/auth/guards";
 
 export default function App() {
   return (
@@ -21,8 +23,16 @@ export default function App() {
           <Route path=":categoria/:slug" element={<BlogArticle />} />
         </Route>
 
-        <Route path="profile" element={<Profile />} />
-        <Route path="signup" element={<Signup />} />
+        {/* Rotas públicas: redireciona para /profile se já logado */}
+        <Route element={<PublicOnlyRoute />}>
+          <Route path="login"  element={<Login />} />
+          <Route path="signup" element={<Signup />} />
+        </Route>
+
+        {/* Rotas protegidas: redireciona para /login se não autenticado */}
+        <Route element={<ProtectedRoute />}>
+          <Route path="profile" element={<Profile />} />
+        </Route>
 
         <Route path="portfolio">
           <Route index element={<Portfolio />} />
